@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./contact.module.css";
+import styles from "@/app/contact/contact.module.css";
 
 
 export const metadata = {

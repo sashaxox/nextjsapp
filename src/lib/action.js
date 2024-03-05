@@ -1,9 +1,9 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
-import { Post, User } from "./models";
-import { connectToDb } from "./utils";
-import { signIn, signOut } from "./auth";
+import { Post, User } from "@/lib/models";
+import { connectToDb } from "@/lib/utils";
+import { signIn, signOut } from "@/lib/auth";
 import bcrypt from "bcryptjs";
 
 export const addPost = async (prevState,formData) => {

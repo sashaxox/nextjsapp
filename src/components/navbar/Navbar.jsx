@@ -1,6 +1,6 @@
 import { auth } from "@/lib/auth";
-import Links from "./links/links";
-import styles from  './navbar.module.css'
+import Links from "@/components/navbar/links/Links";
+import styles from  '@/components/navbar/navbar.module.css'
 import Link from "next/link"
 
 const NavBar = async()=> {
